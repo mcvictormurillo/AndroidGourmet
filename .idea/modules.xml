@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidGourmet.iml" filepath="$PROJECT_DIR$/AndroidGourmet.iml" />
       <module fileurl="file://C:\Users\Victor Manuel\Desktop\Kotlin_Android\Proyectos\CardsGourmet\AndroidGourmet\AndroidGourmet.iml" filepath="C:\Users\Victor Manuel\Desktop\Kotlin_Android\Proyectos\CardsGourmet\AndroidGourmet\AndroidGourmet.iml" />
       <module fileurl="file://C:\Users\Victor Manuel\Desktop\Kotlin_Android\Proyectos\AndroidGourmet\GourmertApp.iml" filepath="C:\Users\Victor Manuel\Desktop\Kotlin_Android\Proyectos\AndroidGourmet\GourmertApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../AndroidGourmet/app/app.iml" filepath="$PROJECT_DIR$/../../AndroidGourmet/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Victor Manuel\Desktop\AndroidGourmet\app\app.iml" filepath="C:\Users\Victor Manuel\Desktop\AndroidGourmet\app\app.iml" />
       <module fileurl="file://C:\Users\Victor Manuel\Desktop\Kotlin_Android\Proyectos\CardsGourmet\AndroidGourmet\app\app.iml" filepath="C:\Users\Victor Manuel\Desktop\Kotlin_Android\Proyectos\CardsGourmet\AndroidGourmet\app\app.iml" />
     </modules>
   </component>
