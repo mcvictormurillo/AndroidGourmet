@@ -25,7 +25,7 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/img_bg">
+                android:layout_height="50dp">
 
                 <TextView
                     style="@style/TextAppearance.AppCompat.Title.Inverse"
@@ -52,11 +52,12 @@
             app:layout_constraintBottom_toTopOf="@+id/password"
             app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
             app:layout_constraintVertical_bias="0.45999998"
-            app:layout_constraintVertical_chainStyle="spread_inside"
+            app:layout_constraintVertical_chainStyle="spread"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="8dp">
 
             <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextCedula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/email"
@@ -67,12 +68,16 @@
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="368dp"
-            android:layout_height="61dp"
+            android:layout_height="150dp"
             android:layout_marginBottom="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </FrameLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -85,6 +90,7 @@
             tools:layout_editor_absoluteX="8dp">
 
             <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/pass"
@@ -93,7 +99,7 @@
 
         <Button
             android:id="@+id/btnReg"
-            android:onClick="@{()-> handler.signin()}"
+
             android:layout_width="wrap_content"
             android:layout_height="42dp"
             android:layout_marginBottom="12dp"

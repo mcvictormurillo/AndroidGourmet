@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "720247527901",
+    "firebase_url": "https://androidgourmet-db7b5.firebaseio.com",
+    "project_id": "androidgourmet-db7b5",
+    "storage_bucket": "androidgourmet-db7b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720247527901:android:ed17f8cd2d8cf14c",
+        "android_client_info": {
+          "package_name": "com.example.victormanuel.gourmertapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720247527901-8ju51q5fe44bklecfhemuqbqa66g2hbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.victormanuel.gourmertapp",
+            "certificate_hash": "03d494a751e69948dd50043e650054b6751f348c"
+          }
+        },
+        {
+          "client_id": "720247527901-jcu8n50jpdkdcomqtjv4qgjspomra0po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuZGptLENd1XM7peqxdZY0m_UsRgQ034I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720247527901-jcu8n50jpdkdcomqtjv4qgjspomra0po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
