@@ -19,7 +19,7 @@ object Data {
                     "En 2104, la nave colonial Covenant, con 2000 colonos y 1400 embriones a bordo, se dirige al remoto planeta Origae-6, vigilados por el androide Walter. Una onda de radiación neutrónica daña la nave, matando al capitán y despertando a la tripulación. Mientras reparan los daños, la tripulación detecta una señal de radio de origen humano procedente de un planeta cercano que aparentemente no tiene vida. En contra del criterio de Daniels, la experta en terraformación, el capitán Oram, oficial ejecutivo de la nave, decide investigar."),
 
             Menu("Pasta", "240 min", "16 de Noviembre",
-                    "https://www.liquidsnowtours.com/images/hakubarestaurant/OSTERIA%20BOVOLETTI-min.jpg",
+                    "https://d8ys5mrbqhmjx.cloudfront.net/montenegro/events/large/winter-alfresco-lunch-457733.jpg",
                     "Alimentado por su restaurada fe en la humanidad e inspirado por el acto desinteresado de Superman, Bruce Wayne recluta la ayuda de su recién encontrada aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman trabajan deprisa para encontrar y reclutar un equipo de metahumanos para plantar cara a esta nueva amenaza creciente. Pero pese a la formación de esta liga de héroes sin precedentes – Batman, Wonder Woman, Aquaman, Cyborg y Flash, quizás sea demasiado tarde para salvar el planeta de un asalto de proporciones catastróficas."),
 
             Menu("Pescados y Mariscos", "190 min", "08 de Junio",
