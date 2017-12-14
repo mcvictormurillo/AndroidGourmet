@@ -10,7 +10,7 @@ import com.example.victormanuel.gourmertapp.models.Menu
 import com.example.victormanuel.gourmertapp.util.inflate
 
 
-class MenuAdapter : RecyclerView.Adapter<MenuViewHolder>(){
+class MenuAdapter(val callback:(pos:Int)->Unit) : RecyclerView.Adapter<MenuViewHolder>(){
 
     var data: List<Menu> = emptyList()
         set(value) {
@@ -19,8 +19,14 @@ class MenuAdapter : RecyclerView.Adapter<MenuViewHolder>(){
         }
     override fun onBindViewHolder(holder: MenuViewHolder, position: Int) {
         holder.binding.menu = data[position]
-
+        holder.binding.root.tag = position
+        holder.binding.handler = this
     }
+
+    fun onMenuClick(pos:Int){
+    callback(pos)
+    }
+
 
     override fun getItemCount(): Int = data.size
 
