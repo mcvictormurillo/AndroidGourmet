@@ -33,6 +33,8 @@ class LoginActivity : AppCompatActivity() {
         binding.handler=this
         userList= mutableListOf()
         ref = FirebaseDatabase.getInstance().getReference("Users")
+
+
         editTextCed = findViewById(R.id.editTextCedula)
         editTextPassword = findViewById(R.id.editTextPassword)
         btnReg = findViewById(R.id.btnReg)
@@ -54,7 +56,7 @@ class LoginActivity : AppCompatActivity() {
                         userList.add(user!!)
 
                     }
-                    val adapter = UserAdapter(applicationContext,R.layout.template_user,userList)
+                    val adapter = UserAdapter(this@LoginActivity,R.layout.template_user,userList)
 
                     listView.adapter = adapter
                 }
