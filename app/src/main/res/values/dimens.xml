@@ -3,4 +3,5 @@
     <dimen name="img_bg">250dp</dimen>
     <dimen name="icon">30dp</dimen>
     <dimen name="bg_nav_header">150dp</dimen>
+    <dimen name="alto">60dp</dimen>
 </resources>
